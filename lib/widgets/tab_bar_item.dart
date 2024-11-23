@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 
 class TabBarItem extends StatelessWidget {
-  final String label;
-  final Color labelColor;
   final IconData iconData;
   final Color? iconColor;
   final double? iconSize;
   final VoidCallback onTap; // Callback for navigation
 
   const TabBarItem({
-    required this.label,
-    required this.labelColor,
     required this.iconData,
     this.iconColor = Colors.black,
     this.iconSize = 24.0,
@@ -27,21 +23,6 @@ class TabBarItem extends StatelessWidget {
         height: 40,
         child: Stack(
           children: [
-            Positioned(
-              left: label == "Community" ? -6.5 : 7.5,
-              top: 28,
-              child: Text(
-                label,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: labelColor,
-                  fontSize: 10,
-                  fontFamily: 'Montserrat',
-                  fontWeight: FontWeight.w500,
-                  height: 1.2,
-                ),
-              ),
-            ),
             Positioned(
               left: 12,
               top: -1,

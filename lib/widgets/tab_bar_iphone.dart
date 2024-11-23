@@ -35,8 +35,6 @@ class TabBarIphone extends StatelessWidget {
                 left: 15,
                 top: 7,
                 child: TabBarItem(
-                  label: 'Home',
-                  labelColor: Color(0xFF5BA37F),
                   icon: FlutterLogo(),
                 ),
               ),
@@ -44,8 +42,6 @@ class TabBarIphone extends StatelessWidget {
                 left: 106,
                 top: 7,
                 child: TabBarItem(
-                  label: 'Exercises',
-                  labelColor: Color(0xFF323232),
                   icon: FlutterLogo(),
                 ),
               ),
@@ -53,8 +49,6 @@ class TabBarIphone extends StatelessWidget {
                 left: 197,
                 top: 7,
                 child: TabBarItem(
-                  label: 'Progress',
-                  labelColor: Color(0xFF323232),
                   icon: FlutterLogo(),
                 ),
               ),
@@ -62,8 +56,6 @@ class TabBarIphone extends StatelessWidget {
                 left: 288,
                 top: 7,
                 child: TabBarItem(
-                  label: 'Community',
-                  labelColor: Color(0xFF323232),
                   icon: FlutterLogo(),
                 ),
               ),
@@ -71,8 +63,6 @@ class TabBarIphone extends StatelessWidget {
                 left: 379,
                 top: 7,
                 child: TabBarItem(
-                  label: 'Profile',
-                  labelColor: Color(0xFF323232),
                   icon: FlutterLogo(),
                 ),
               ),
