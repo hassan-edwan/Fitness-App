@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/tab_bar_item.dart';
 
 class CommunityScreen extends StatelessWidget {
-  const CommunityScreen({Key? key}) : super(key: key);
+  const CommunityScreen({super.key});
 
   
 

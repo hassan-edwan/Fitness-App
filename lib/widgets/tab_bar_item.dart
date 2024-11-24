@@ -11,14 +11,14 @@ class TabBarItem extends StatelessWidget {
     this.iconColor = Colors.black,
     this.iconSize = 24.0,
     required this.onTap, // Make the callback required
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap, // Trigger navigation when tapped
-      child: Container(
+      child: SizedBox(
         width: 55,
         height: 40,
         child: Stack(

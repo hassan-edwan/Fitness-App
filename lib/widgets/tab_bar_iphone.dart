@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'tab_bar_item.dart';
 
 class TabBarIphone extends StatelessWidget {
-  const TabBarIphone({Key? key}) : super(key: key);
+  const TabBarIphone({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
+        SizedBox(
           width: 440,
           height: 83,
           child: Stack(

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/tab_bar_item.dart';
 
 class ExerciseScreen extends StatelessWidget {
-  const ExerciseScreen({Key? key}) : super(key: key);
+  const ExerciseScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
